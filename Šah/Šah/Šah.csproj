@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7160004C-7B99-4C7C-941D-0588EF23136F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Šah</RootNamespace>
+    <AssemblyName>Šah</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="figure\Bishop.cs" />
+    <Compile Include="figure\KnightF.cs" />
+    <Compile Include="figure\Kralj.cs" />
+    <Compile Include="figure\Kraljica.cs" />
+    <Compile Include="figure\Pijun.cs" />
+    <Compile Include="figure\Top.cs" />
+    <Compile Include="frmSah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSah.Designer.cs">
+      <DependentUpon>frmSah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funkcije\FunkBlokirajFigurucs.cs" />
+    <Compile Include="Funkcije\FunkcijaVratiDefBoju.cs" />
+    <Compile Include="Funkcije\Provjeri.cs" />
+    <Compile Include="Funkcije\GlavneFunkcije.cs" />
+    <Compile Include="Funkcije\PomocneFunkcije.cs" />
+    <Compile Include="Funkcije\Sortiraj.cs" />
+    <Compile Include="Igraci\frmIgraci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Igraci\frmIgraci.Designer.cs">
+      <DependentUpon>frmIgraci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="promocija\frmPromocija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="promocija\frmPromocija.Designer.cs">
+      <DependentUpon>frmPromocija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmSah.resx">
+      <DependentUpon>frmSah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Igraci\frmIgraci.resx">
+      <DependentUpon>frmIgraci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="promocija\frmPromocija.resx">
+      <DependentUpon>frmPromocija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\InMemoryDB\InMemoryDB.csproj">
+      <Project>{ff80058a-2884-4af8-9ecd-3863d247aeaa}</Project>
+      <Name>InMemoryDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InterfaceLibrary1\InterfaceLibrary1.csproj">
+      <Project>{d2153024-6b46-4066-aaf0-4859ff706543}</Project>
+      <Name>InterfaceLibrary1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

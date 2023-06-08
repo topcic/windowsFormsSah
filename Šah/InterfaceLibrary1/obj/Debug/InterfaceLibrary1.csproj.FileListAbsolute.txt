@@ -1,0 +1,6 @@
+C:\Users\Mahir\source\repos\Šah\InterfaceLibrary1\bin\Debug\InterfaceLibrary1.dll
+C:\Users\Mahir\source\repos\Šah\InterfaceLibrary1\bin\Debug\InterfaceLibrary1.pdb
+C:\Users\Mahir\source\repos\Šah\InterfaceLibrary1\obj\Debug\InterfaceLibrary1.csprojAssemblyReference.cache
+C:\Users\Mahir\source\repos\Šah\InterfaceLibrary1\obj\Debug\InterfaceLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Mahir\source\repos\Šah\InterfaceLibrary1\obj\Debug\InterfaceLibrary1.dll
+C:\Users\Mahir\source\repos\Šah\InterfaceLibrary1\obj\Debug\InterfaceLibrary1.pdb

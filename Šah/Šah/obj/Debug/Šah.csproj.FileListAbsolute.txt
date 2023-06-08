@@ -1,0 +1,17 @@
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.csprojAssemblyReference.cache
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.Properties.Resources.resources
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.csproj.GenerateResource.cache
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.csproj.CoreCompileInputs.cache
+C:\Users\Mahir\source\repos\Šah\Šah\bin\Debug\Šah.exe.config
+C:\Users\Mahir\source\repos\Šah\Šah\bin\Debug\Šah.exe
+C:\Users\Mahir\source\repos\Šah\Šah\bin\Debug\Šah.pdb
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.exe
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.pdb
+C:\Users\Mahir\source\repos\Šah\Šah\bin\Debug\InMemoryDB.dll
+C:\Users\Mahir\source\repos\Šah\Šah\bin\Debug\InMemoryDB.pdb
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.csproj.CopyComplete
+C:\Users\Mahir\source\repos\Šah\Šah\bin\Debug\InterfaceLibrary1.dll
+C:\Users\Mahir\source\repos\Šah\Šah\bin\Debug\InterfaceLibrary1.pdb
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.frmSah.resources
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.Igraci.frmIgraci.resources
+C:\Users\Mahir\source\repos\Šah\Šah\obj\Debug\Šah.promocija.frmPromocija.resources
